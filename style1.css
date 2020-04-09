@@ -1,0 +1,77 @@
+.container{
+	  background:#000 url(pngfind.com-giving-hands-png-923842.png) no-repeat center center fixed;
+	  color: #fff;
+	  height: 100%;
+	  width:100% 100%;  
+	  position: relative;
+}
+.color-overlay{
+	 width: 100%;
+	 height: 100%;
+	 background: #000;
+	 opacity: .7;
+	 position: absolute;
+}
+h1{
+	font-family: "Pacifico" cursive;
+	font-size: 60px;
+	z-index: 1;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+ul{
+	float:right;
+	list-style-type: none;
+	margin-top: 25px; 
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: red;
+	padding: 5px 20px;
+	border: 1px solid white;
+	transition: 0.6s ease;
+	background-color:  #255784;
+}
+ul li a:hover{
+	background-color: violet;
+	color:green;
+	box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+	transition-delay: 1s;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color:#fff;
+	font-size: 70px;
+}
+
+.button{
+	 position: absolute;
+	 top: 60%;
+	 left: 50%;
+	 transform: translate(-50%,-50%);
+}
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color:red;
+	text-decoration: none;
+	font-weight: bold;
+}
+.btn:hover{
+	background-color: #255784;
+	color:#2196f3;
+	box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+	transition-delay: 1s;
+}
